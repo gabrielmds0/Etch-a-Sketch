@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh; /* Use full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: beige; /* Set the body background color */
+}
+
+button {
+    margin-bottom: 20px; /* Add some space below the button */
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue; /* Set the container background color */
+    flex-wrap: wrap;
+    width: 960px; /* Fixed width for the container */
+    height: 960px; /* Fixed height to match total area */
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px solid lightgray;
+    box-sizing: border-box; /* Include borders in the width/height calculation */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
